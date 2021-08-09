@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Qui suis-je</title>
-</head>
-<body>
+{%  extends 'default.html' %}
+{% block body %}
     <h1> Qui suis-je ?</h1>
-        {%  include '_nav.html' %}
         <h2> Arnaud BOULANGER</h2>
             <h3> Apprenti développeur Python</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -19,5 +13,6 @@
                 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
                 Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum.
                 Maecenas adipiscing ante non diam sodales hendrerit.</p>
-</body>
-</html>
+        <h2> Technologies utilisées pour ce site</h2>
+            <p>LOGOS ICI</p>
+{% endblock %}
